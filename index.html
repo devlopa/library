@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Our Library</h1>
+        </header>
+        <button type="button" class="btn">Add Book</button>
+        <form method="post" action="/add">
+            <input type="text" id="author" placeholder="Please Enter Author Name">
+            <input type="text" id="title" placeholder="Please Enter Title of the Book">
+            <textarea id="description" placeholder="Book Description Goes Here..."></textarea>
+            <input type="text" id="bookImage" placeholder ="Please Enter URL of Book Image">
+            <input type="text" id="pages" placeholder="Please Enter No of Pages">
+            <input type="text" id="read" placeholder="did you read the book">
+            <input type="button" id="button" class="form-button" value="Add">
+            <input type="button" id="button" class="clearForm" value="Clear">
+
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
